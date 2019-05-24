@@ -77,7 +77,7 @@ const geoData = async () => {
 
 
      //Get the entire data set
-    let fulldata = await d3.csv("Data/combinedWeather.csv", d3.autoType);
+    let fulldata = await d3.csv("Data/CombinedWeather.csv", d3.autoType);
 
     console.log(fulldata);
 
