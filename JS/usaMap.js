@@ -33,10 +33,10 @@ activeSlider.value = 0;
 const geoData = async () => {
 
     //Geo variables
-    const usa = await d3.json("Data/us.json");
+    const usa = await d3.json("/Data/us.json");
     
 
-    const stateIDs = await d3.tsv("Data/us-state-names.tsv");
+    const stateIDs = await d3.tsv("/Data/us-state-names.tsv");
   
 
 
