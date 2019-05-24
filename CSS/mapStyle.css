@@ -1,0 +1,223 @@
+/* header */
+
+header {
+  /* background-color: #F9FAF5; */
+  padding: 15px 0 15px 0;
+  font-family: monospace;
+  color:rgb(97, 183, 202);
+}
+
+#month {
+  display: inline-block;
+  /* float: left; */
+}
+
+#year {
+  display: inline-block;
+  /* float: left; */
+  /* padding-left: 8px; */
+}
+
+#state {
+  display: inline-block;
+}
+
+
+/* Body */
+body {
+  font-family: monospace;
+  /* font-size: 110%; */
+  line-height: 20px;
+}
+
+/* buttons */
+#buttons {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  float: right;
+  /* background-color: rgb(97, 183, 202);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none; */
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+/* map */
+#usa {
+  position: relative;
+  background-color: #BEF4FF;
+  cursor: pointer;
+}
+
+.state {
+    fill: lightgrey;
+    stroke: none;
+  }
+
+.outline {
+  stroke: black;
+  stroke-width: 1px;
+  fill: none;
+}
+
+.hoverBox {
+  position: absolute;
+  text-align: center;
+  padding: 4px;
+  width: 140px;
+  height: 60px;
+  font: 12px sans-serif;
+  background: honeydew;
+  border: 1px solid grey;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+
+/* Legend */
+#usaMapLegend {
+  position: absolute;
+  float: left;
+  background: #F9F3EE;
+  padding: 0px 0px 10px 0px;
+  left: 20px;
+  top: 600px;
+}
+#usaMapLegend text {
+  /* fill: white; */
+  font-family: monospace;
+  font-size: 14px;
+  stroke: black;
+}
+
+
+/* slider */
+
+#month.slider {
+
+}
+
+.slider-labels{
+  display: right;
+  margin: 0px -41px 0;
+  padding: 0px 10px 0px 40px;
+  list-style: none;
+  }
+
+.slider-labels li{
+
+  position: relative fixed;
+
+  float: left;
+  width: 59px;
+  color: #000000;
+  font-size: 10px;
+}
+
+/* dropdown */
+#dropdown {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+/* position */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* .column.left {
+  width: 50%;
+}
+
+.column.right {
+  width: 50%;
+} */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.box2 {
+  position: static;
+  display: block;
+  text-align: center;
+
+
+}
+
+
+/* #usaMapLegend line {
+  stroke: white;
+}
+
+#usaMapLegend path {
+  stroke: white;
+} */
+
+
+/* Graphs */
+
+
+/* Bar graph */
+#producerType {
+  background: #F3E4E7;
+  /* float: left; */
+}
+
+#consumptionInfo{
+  display: block;
+}
+
+/* .bar {
+  fill: #B1AFCD;
+} */
+
+/* Line graph */
+#yearlyGeneration{
+  background-color: #F3E4E7;
+  /* float: right; */
+  cursor: pointer;
+}
+
+.line {
+  fill: none;
+  stroke: #B1AFCD;
+  stroke-width: 2px;
+}
+
+
+
+/* footer */
+footer {
+  padding: 10px 10px;
+  background-color:rgb(97, 183, 202);
+  color: #FFFFFF;
+  font-size: small;
+  line-height: 20px;
+}
+footer a{
+  color: #FFFFFF;
+}
